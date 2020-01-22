@@ -1,0 +1,92 @@
+.status_bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 550px;
+  height: 62px;
+  margin: 1px auto;
+}
+
+.status_button {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+}
+
+.status_button.clear_completed_btn:hover {
+  text-decoration: underline;
+  border: 0;
+  outline: 0;
+}
+
+.status_button:hover {
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  outline: 0;
+}
+
+.status_bar_content {
+  margin: auto;
+}
+
+.card {
+  display: block;
+  position: absolute;
+  background: #fff;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.5s;
+  border-radius: 0%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+  border-left: 1px solid rgba(128, 128, 128, 0.226);
+  border-right: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.first {
+  width: 540px;
+  height: 50px;
+  bottom: 4px;
+}
+
+.second {
+  width: 545px;
+  height: 50px;
+  bottom: 8px;
+}
+
+.third {
+  width: 550px;
+  height: 50px;
+  bottom: 12px;
+  border-top: none;
+}
+
+.card.third > span:nth-child(1) {
+  position: absolute;
+  left: 2%;
+  top: 15%;
+}
+
+.card.third > span:nth-child(2) {
+  position: absolute;
+  left: 30%;
+  top: 13%;
+}
+
+.card.third > span:nth-child(3) {
+  position: absolute;
+  left: 73%;
+  top: 13%;
+}
+
+.card.third > span {
+  margin-top: 1%;
+}

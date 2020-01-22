@@ -1,3 +1,4 @@
+![To-do App picture](https://drive.google.com/open?id=10tZPLjDaakXqxj0YtP1GHVxhLBJ4qVfO)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
